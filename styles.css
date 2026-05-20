@@ -358,7 +358,7 @@ header .nav-actions button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: center;
+  align-items: stretch;
 }
 
 .featured-card {
@@ -369,6 +369,7 @@ header .nav-actions button {
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 32px;
   box-shadow: var(--shadow);
+  height: 100%;
 }
 
 .featured-card h4 {
@@ -402,7 +403,7 @@ header .nav-actions button {
   position: relative;
   overflow: hidden;
   border-radius: 32px;
-  min-height: 520px;
+  height: 100%;
 }
 
 .featured-media::after {
@@ -488,7 +489,7 @@ header .nav-actions button {
 .stars {
   display: inline-flex;
   gap: 4px;
-  color: #d4b96d;
+  color: #000;
 }
 
 .review-card p {
@@ -569,6 +570,10 @@ header .nav-actions button {
   color: var(--text);
 }
 
+.newsletter input::placeholder {
+  color: #000;
+}
+
 footer {
   padding: 60px 24px 40px;
   background: rgba(0,0,0,0.94);
@@ -601,7 +606,7 @@ footer {
   border-top: 1px solid rgba(255,255,255,0.08);
   padding-top: 24px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 18px;
   color: var(--muted);
@@ -861,6 +866,10 @@ footer {
 .hero-cta button {
   color: #fff;
 }
+
+
+
+
 
 
 

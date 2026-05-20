@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EsahMaya | Elegance Dresses</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="brand">
+        <h1>ESAHMAYA</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#featured">Bestsellers</a></li>
+          <li><a href="#explorer">Style Guide</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="bag-button" aria-label="Open shopping cart">Cart <span id="cart-count">0</span></button>
+        <button class="icon-button">? <span id="wishlist-count" style="position:absolute;transform:translate(-40%, -40%);font-size:0.75rem;color:var(--gold);"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-media"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="subtitle">Polished. Feminine. Powerful.</p>
+        <h2>Corporate Fashion For Women Who Lead.</h2>
+        <p class="lead">Discover refined officewear and statement pieces crafted for confidence, elegance, and everyday authority.</p>
+        <div class="hero-cta">
+          <button class="shop-collection">Shop Collection</button>
+          <button class="signature-dresses">Explore Signature Dresses</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="collections">
+      <div class="container">
+        <div class="section-title fade-up">
+          <span>Trending Corporate Wear</span>
+          <h3>Explore polished dresses and tailored sets designed for bold, effortless elegance.</h3>
+        </div>
+        <div class="filters fade-up">
+          <button class="filter-button active" data-family="All">All</button>
+          <button class="filter-button" data-family="Blazer">Blazer</button>
+          <button class="filter-button" data-family="Floral">Floral</button>
+          <button class="filter-button" data-family="Midi">Midi</button>
+          <button class="filter-button" data-family="Formal">Formal</button>
+          <button class="filter-button" data-family="Executive">Executive</button>
+          <button class="filter-button" data-family="Casual">Casual</button>
+          <button class="filter-button" data-family="Maxi">Maxi</button>
+          <button class="filter-button" data-family="Knit">Knit</button>
+        </div>
+        <div class="container" style="margin-bottom:24px;">
+          <input id="search-input" type="search" placeholder="Search elegant dresses and officewear" style="width:100%;padding:18px 22px;border-radius:24px;border:1px solid rgba(255,255,255,0.12);background:rgba(0,0,0,0.45);color:#f7f1eb;" />
+        </div>
+        <div id="collection-grid" class="grid row-4"></div>
+      </div>
+    </section>
+
+    <section id="featured">
+      <div class="container featured">
+        <div class="featured-card fade-up">
+          <div class="section-title">
+            <span>Featured Corporate Collection</span>
+            <h3>Immersive Showcase</h3>
+          </div>
+          <h4>Boardroom Muse: The Signature Edit</h4>
+          <p>Designed with clean tailoring and graceful silhouettes, this edit celebrates modern women who dress with confidence, poise, and purpose.</p>
+          <div class="featured-highlight">
+            <span class="highlight-pill">Premium Fabrics</span>
+            <span class="highlight-pill">Tailored Fit</span>
+            <span class="highlight-pill">Exclusive Drop</span>
+          </div>
+          <div class="card-actions">
+            <button class="shop-collection">Browse Best Sellers</button>
+            <button class="quick-btn" data-product-id="5">Quick View</button>
+          </div>
+        </div>
+        <div class="featured-media fade-up">
+          <img src="img/executive.jpg" alt="Featured corporate fashion look" />
+        </div>
+      </div>
+    </section>
+
+    <section id="explorer">
+      <div class="container">
+        <div class="section-title fade-up">
+          <span>Corporate Style Guide</span>
+          <h3>Find Your Elegant Workwear Signature</h3>
+        </div>
+        <div class="grid row-3 fade-up">
+          <div class="benefit-card">
+            <h4>Power Blazer Dresses</h4>
+            <p>Structured cuts and clean lines designed to create a polished boardroom presence.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Soft Feminine Florals</h4>
+            <p>Elegant floral tones balanced with modern tailoring for graceful weekday style.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Minimal Neutral Classics</h4>
+            <p>Timeless neutral pieces that pair effortlessly with heels, blazers, and statement accessories.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div class="container testimonials fade-up">
+        <div class="section-title">
+          <span>Customer Reviews</span>
+          <h3>Voices of Luxury</h3>
+        </div>
+        <div class="review-slider">
+          <div class="review-card">
+            <div class="review-meta">
+              <img src="img/Agbenu.jpeg" alt="Customer photo" />
+              <div>
+                <h5>Comfort U.</h5>
+                <div class="stars">?????</div>
+              </div>
+            </div>
+            <p>"The fit is so flattering and elegant. I wore it to work and got compliments all day."</p>
+          </div>
+          <div class="review-card">
+            <div class="review-meta">
+              <img src="img/ALLS9207.JPG" alt="Customer photo" />
+              <div>
+                <h5>Diana A.</h5>
+                <div class="stars">?????</div>
+              </div>
+            </div>
+            <p>"Beautiful quality and clean finishing. The dress looked exactly like the photos."</p>
+          </div>
+          <div class="review-card">
+            <div class="review-meta">
+              <img src="img/_MG_4517.JPG" alt="Customer photo" />
+              <div>
+                <h5>Janet U.</h5>
+                <div class="stars">?????</div>
+              </div>
+            </div>
+            <p>"The corporate collection is classy and feminine. Perfect for meetings and formal events."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-title fade-up">
+          <span>Why Choose Us</span>
+          <h3>Excellence In Every Detail</h3>
+        </div>
+        <div class="benefits fade-up">
+          <div class="benefit-card">
+            <h4>Elegant Tailoring</h4>
+            <p>Each design is tailored to flatter your silhouette while keeping a professional, refined finish.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Premium Quality</h4>
+            <p>Every dress is crafted from quality materials chosen for comfort, durability, and polished appearance.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Luxury Presentation</h4>
+            <p>Beautiful packaging and thoughtful finishing details that match the elegance of each piece.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Nationwide Delivery</h4>
+            <p>Fast, secure shipping with attention to presentation and premium handling.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Secure Payments</h4>
+            <p>Pay with confidence using trusted gateways and encrypted checkout flows.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Customer Service</h4>
+            <p>Dedicated support for sizing, styling, and order tracking from checkout to delivery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <div class="section-title fade-up">
+          <span>Fashion Experience</span>
+          <h3>Gallery of Corporate Elegance</h3>
+        </div>
+        <div class="gallery-grid fade-up">
+          <a href="img/blazers1.jpg" target="_blank" class="gallery-item"><img src="img/casual.jpg" alt="Corporate fashion gallery 1" /></a>
+          <a href="img/coperate dress.jpg" target="_blank" class="gallery-item"><img src="img/evening.jpg" alt="Corporate fashion gallery 2" /></a>
+          <a href="img/evening.jpg" target="_blank" class="gallery-item"><img src="img/executive.jpg" alt="Corporate fashion gallery 3" /></a>
+          <a href="img/floral dress.jpg" target="_blank" class="gallery-item"><img src="img/formal.jpg" alt="Corporate fashion gallery 4" /></a>
+          <a href="img/midi.jpg" target="_blank" class="gallery-item"><img src="img/esty.jpg" alt="Corporate fashion gallery 5" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter fade-up">
+      <div class="container">
+        <div class="section-title">
+          <span>Newsletter</span>
+          <h3>Stay Informed On New Arrivals</h3>
+        </div>
+        <p style="max-width:760px; color: rgba(247,241,235,0.84);">Subscribe for exclusive dress drops, limited edits, and elegant styling inspiration tailored to your wardrobe.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" aria-label="Newsletter email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h4>ESAHMAYA</h4>
+        <p style="color: rgba(247,241,235,0.8); max-width:420px;">A premium women?s fashion label creating elegant dresses for confident, modern women.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#featured">Signature</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li>hello@esahmaya.com</li>
+          <li>+234 90 6468 6888</li>
+          <li>Abuja . Nigeria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span> 2026 EsahMaya. All rights reserved.</span>
+      <span>Privacy. Terms. Shipping</span>
+    </div>
+  </footer>
+
+  <div class="cart-panel">
+    <div class="cart-panel-backdrop"></div>
+    <div class="cart-panel-content fade-up">
+      <button class="cart-close" aria-label="Close cart">?</button>
+      <div>
+        <h3>Shopping Cart</h3>
+        <div id="cart-items" style="margin-top:20px;"></div>
+      </div>
+      <aside class="cart-summary">
+        <h4>Order Summary</h4>
+        <p style="color: rgba(247,241,235,0.84);">Checkout securely using Paystack or choose a bank transfer option.</p>
+        <div style="margin-top: 24px; display:grid; gap:12px;">
+          <div style="display:flex; justify-content:space-between; font-size:1rem;"><span>Total</span><strong id="cart-total">$0.00</strong></div>
+          <label>
+            <span style="display:block; margin-bottom:8px; color:var(--muted);">Name</span>
+            <input id="checkout-name" type="text" placeholder="Full name" style="width:100%; padding:14px 16px; border-radius:16px; border:1px solid rgba(255,255,255,0.12); background:rgba(0,0,0,0.4); color:#f7f1eb;" />
+          </label>
+          <label>
+            <span style="display:block; margin-bottom:8px; color:var(--muted);">Email</span>
+            <input id="checkout-email" type="email" placeholder="name@example.com" style="width:100%; padding:14px 16px; border-radius:16px; border:1px solid rgba(255,255,255,0.12); background:rgba(0,0,0,0.4); color:#f7f1eb;" />
+          </label>
+          <label>
+            <span style="display:block; margin-bottom:8px; color:var(--muted);">Payment Method</span>
+            <select id="payment-method" style="width:100%; padding:14px 16px; border-radius:16px; border:1px solid rgba(255,255,255,0.12); background:rgba(0,0,0,0.4); color:#f7f1eb;">
+              <option value="card">Card Payment</option>
+              <option value="bank">Bank Transfer</option>
+            </select>
+          </label>
+          <div class="checkout-actions">
+            <button class="checkout-pay">Proceed to Secure Checkout</button>
+          </div>
+          <p id="payment-feedback" aria-live="polite"></p>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <div class="quick-view">
+    <div class="quick-view-backdrop"></div>
+    <div class="quick-view-content fade-up">
+      <button class="quick-view-close" aria-label="Close quick view">?</button>
+      <div id="quick-view-details"></div>
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content fade-up">
+      <button class="modal-close" aria-label="Close modal">?</button>
+      <h3 id="modal-title">Payment Status</h3>
+      <p id="modal-message">Your payment status will display here after checkout.</p>
+    </div>
+  </div>
+
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <script src="script.js?v=20260519-1"></script>
+</body>
+</html>
+
+
+
+
+
